@@ -1,0 +1,91 @@
+nav{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image:url(images/emblema-porshe-kajen-foto_0.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 30px;
+}
+a:hover{
+    color: goldenrod;
+}
+#text{
+    display: flex;
+    flex-wrap: nowrap;
+    
+} 
+#deviz{
+    background-image: url(images/porsche-normal.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    height: 400px;
+}
+#cayenne img{
+    width: 100%;
+}
+#cayenne{
+    border: goldenrod 4px solid;
+    border-radius: 15px;
+    padding: 7px;
+}
+#panamera img{
+    width: 100%;
+}
+#panamera{
+    border: goldenrod 4px solid;
+    border-radius: 15px;
+    padding: 7px;
+}
+#porsche911 img{
+    width: 100%;
+    margin-top: 11%;
+}
+#porsche911{
+    border: goldenrod 4px solid;
+    border-radius: 15px;
+    padding: 7px;
+}
+#models{
+    background-color: black;
+    padding: 25px;
+}
+#models p{
+    color: white;
+}
+#history h1{
+    text-align: center;
+}
+#models h1{
+    text-align: center;
+    color: white;
+    border: 3px goldenrod solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 500px;
+}
+#nadpis{
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    color: brown;
+    font-size: 35px;
+}
+#cars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carss{
+    width: 30%;
+    height: 400px;
+    margin: 0 0.5%;
+}
